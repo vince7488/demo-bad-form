@@ -2,7 +2,7 @@
 |----|----------|--------------|------------------|---------------|
 | F-G01 | Form-wide labels and legal text | Uses 7-9px text. | Critical instructions and labels are hard to read. | |
 | F-G02 | Form fields | Places labels below and against input borders. | Field identity is easy to misread. | |
-| F-G03 | Form labels | Mixes missing, correct, and incorrect label associations. | Input purpose is inconsistently conveyed. | |
+| F-G03 | Form labels | Mixes unassociated text, correct labels, and these wrong mappings: Phone to Email; sale location to Street Name; County to City; Vendor Tax Registration Number to Gross Receipts; First Name to Last Name; Second First Name to First Name; Last Name to Second Last Name; Second Last Name to Suffix; Print Name to Signature. | Input purpose is inconsistently conveyed. | |
 | F-G04 | Form labels | Uses low-contrast gray label text. | Required information fades into the page. | |
 | F-G05 | Form fields | Applies placeholders inconsistently and sometimes contradictorily. | Users cannot form a dependable completion pattern. | |
 | F-G06 | Validation errors | Shows an unconnected inline error and red border. | Errors lack context and recovery guidance. | |
