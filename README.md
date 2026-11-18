@@ -36,10 +36,10 @@ The optional server only serves static files. It does not process applications.
 
 ## How to use
 
-1. Read the fictional-form banner and use invented information throughout.
+1. Read the privacy notice and use invented information throughout.
 2. Try completing the application with a mouse, keyboard, and any assistive technology or assessment tools you want to evaluate. Record the interaction and its effect on the task, not just the appearance of the page.
 3. Activate **Submit Application** to observe the delayed validation loop. A failed submission clears entered information and reports only the first failure. Plan to re-enter test data between attempts.
-4. Compare findings with [`rs11/FAILURES.md`](rs11/FAILURES.md). The `data-fid` attributes in the HTML connect elements to catalog entries for inspection and audit tooling.
+4. After completing an assessment, compare findings with [`rs11/FAILURES.md`](rs11/FAILURES.md). Keep this README, `AGENTS.md`, and the registry out of benchmark inputs. The HTML contains no failure-ID annotations; provide agents only the form and its local assets for a blind assessment.
 5. Reload to start a new session. The normal session expires silently after 15 minutes; expiration is revealed on submission.
 
 Normal input cannot complete the application: the simulated server check always rejects the taxpayer identification number. The received page is available through a demonstration parameter.
@@ -64,7 +64,7 @@ There is no issuing agency, actual license, payment service, application databas
 
 ## Warnings and disclaimers
 
-**This form is fictional. Every failure in it is real.** Nothing you enter is sent or saved. Don't use real information anyway.
+Nothing you enter is sent or saved. Don't use real information anyway.
 
 - **Use dummy data only.** Never enter real names, addresses, birth dates, taxpayer identifiers, payment details, or personal documents. Use a disposable test file for the upload interaction.
 - **Privacy boundary:** the supplied form has no submission endpoint, external assets, analytics, or application storage. Processing is simulated with browser timers; state lives in memory and form controls. This describes the specimen's code, not browser extensions, recording tools, or modifications you add.
